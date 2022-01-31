@@ -20,12 +20,12 @@ export function TaskList() {
 
     tasks.map(task => {
       if(task.id === number){
-        return ''
+        return
       }
     })
 
     if(newTaskTitle === null || newTaskTitle.length === 0){
-      return ''
+      return
     }
 
     const task: Task ={
